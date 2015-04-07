@@ -73,4 +73,3 @@ ln -s /etc/php5/mods-available/pdo_oci.ini /etc/php5/fpm/conf.d/20-pdo_oci.ini
 
 # Restart php5-fpm or apache2 when not using fpm.
 service php5-fpm restart
-
