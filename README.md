@@ -1,2 +1,2 @@
 # install-oracle-php
-Install instantclient, oci8 and pdo_oci
+Install instantclient, oci8 and pdo_oci.
