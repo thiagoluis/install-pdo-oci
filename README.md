@@ -1,2 +1,2 @@
 # install-oracle-php
-Install instantclient, oci8 and pdo_oci.
+Install instantclient, oci and pdo_oci in Debian and derivatives servers.
