@@ -2,7 +2,7 @@
 
 # Author: Thiago Luís <thiagoluis@ymail.com>
 
-# The following procedures were testandos in Debian and derivatives.
+# The following procedures were tested under Debian and derivatives.
 # IMPORTANT! You must have administrator permission to perform some of the commands below.
 
 # Create the directory to Instantcliente 12.1
