@@ -71,5 +71,8 @@ echo "extension=pdo_oci.so" > /etc/php5/mods-available/pdo_oci.ini
 # Change the way when not using fpm.
 ln -s /etc/php5/mods-available/pdo_oci.ini /etc/php5/fpm/conf.d/20-pdo_oci.ini
 
+# Clear downloads oci8, pdo and pdo_oci
+rm -rf ~/provision/php/*
+
 # Restart php5-fpm or apache2 when not using fpm.
 service php5-fpm restart
