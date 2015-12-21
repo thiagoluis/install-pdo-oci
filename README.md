@@ -1,2 +1,1 @@
-# install-oracle-php
-Install instantclient, oci and pdo_oci in Debian and derivatives servers.
+# Vagrant + nginx + php + oci8 + pdo_oci 
