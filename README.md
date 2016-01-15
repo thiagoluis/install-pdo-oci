@@ -1,1 +1,1 @@
-# Vagrant + nginx + php + oci8 + pdo_oci 
+# Install pdo_oci 
