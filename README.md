@@ -22,7 +22,7 @@ Set the address that accepts requests.
 
     sed -i 's/\/var\/run\/php5-fpm.sock/127.0.0.1:9000/' /etc/php5/fpm/pool.d/www.conf
 
-Restart php5-fpm
+Restart
 
     service php5-fpm restart
 
@@ -52,3 +52,7 @@ Configure your `/etc/nginx/conf.d/default.conf` to execute extensions `.php`. Ba
             include        fastcgi_params;
         }
     }
+
+Restart
+
+    service nginx restart
