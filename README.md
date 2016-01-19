@@ -12,7 +12,7 @@ The instructions in file `install-pdo-oci.sh`, install pdo_oci extension in dist
     + instantclient-sdk-linux.x64-12.1.0.2.0.zip
 
 ## Testing with nginx
-Set your distribution below: [http://nginx.org/en/linux_packages.html]():
+Set your distribution below, as this [http://nginx.org/en/linux_packages.html]():
 
     wget http://nginx.org/keys/nginx_signing.key
     sudo apt-key add nginx_signing.key
