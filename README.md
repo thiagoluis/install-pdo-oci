@@ -4,15 +4,15 @@ The instructions in file `install-pdo-oci.sh`, install pdo_oci extension in dist
     sudo ./install-pdo-oci.sh
 
 ## Requirements
-+ [http://pecl.php.net/get/oci8-2.0.10.tgz]()
-+ [http://pecl.php.net/get/PDO-1.0.3.tgz]()
-+ [http://pecl.php.net/get/PDO_OCI-1.0.tgz]()
++ [http://pecl.php.net/get/oci8-2.0.10.tgz](http://pecl.php.net/get/oci8-2.0.10.tgz)
++ [http://pecl.php.net/get/PDO-1.0.3.tgz](http://pecl.php.net/get/PDO-1.0.3.tgz)
++ [http://pecl.php.net/get/PDO_OCI-1.0.tgz](http://pecl.php.net/get/PDO_OCI-1.0.tgz)
 + Search in oracle page for:
     + instantclient-basic-linux.x64-12.1.0.2.0.zip
     + instantclient-sdk-linux.x64-12.1.0.2.0.zip
 
 ## Testing with nginx
-Set your distribution below, as this [http://nginx.org/en/linux_packages.html]():
+Set your distribution below, as this [http://nginx.org/en/linux_packages.html](http://nginx.org/en/linux_packages.html):
 
     wget http://nginx.org/keys/nginx_signing.key
     sudo apt-key add nginx_signing.key
@@ -65,6 +65,6 @@ Create in /usr/share/nginx/html your `phpinfo.php`:
     <?php phpinfo(); ?>
 
 ## Finished
-Execute [http://localhost/phpinfo.php]() and check section PDO, you must see:
+Execute [http://localhost/phpinfo.php](http://localhost/phpinfo.php) and check section PDO, you must see:
 
     PDO drivers         oci
