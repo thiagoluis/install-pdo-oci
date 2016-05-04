@@ -1,9 +1,11 @@
 # Installation
 The instructions in file `install-pdo-oci.sh`, install pdo_oci extension in distribution Debian and derivatives.
+Set the absolute path in the file and run as admin.
 
     sudo ./install-pdo-oci.sh
 
 ## Requirements
++ php5-fpm
 + [http://pecl.php.net/get/oci8-2.0.10.tgz](http://pecl.php.net/get/oci8-2.0.10.tgz)
 + [http://pecl.php.net/get/PDO-1.0.3.tgz](http://pecl.php.net/get/PDO-1.0.3.tgz)
 + [http://pecl.php.net/get/PDO_OCI-1.0.tgz](http://pecl.php.net/get/PDO_OCI-1.0.tgz)
