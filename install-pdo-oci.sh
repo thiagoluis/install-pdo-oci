@@ -13,7 +13,7 @@
 DIR_FILES=/downloads
 
 apt-get update
-apt-get install -y build-essential libaio1 unzip php-pear php5 php5-common php5-cli php5-fpm php5-dev
+apt-get install -y build-essential libaio1 unzip php-pear php5 php5-common php5-cli php5-dev
 
 # instantclient
 mkdir -p /opt/oracle/
@@ -48,7 +48,7 @@ tar xvzf $DIR_FILES/PDO_OCI-1.0.tgz --directory /usr/lib/php
 mkdir -p /usr/lib/php/PDO_OCI-1.0/include/php/ext/pdo
 ln -s /usr/lib/php/PDO-1.0.3/php_pdo_driver.h /usr/lib/php/PDO_OCI-1.0/include/php/ext/pdo/php_pdo_driver.h
 
-#compilation 
+#compilation
 cd /usr/lib/php/PDO_OCI-1.0
 sed -i 's/function_entry/zend_function_entry/' pdo_oci.c
 phpize
